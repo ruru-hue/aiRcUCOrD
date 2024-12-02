@@ -4,24 +4,24 @@
             var result = "凶"; // デフォルトの値
 
             if (colour === "青" && number === 0) {
-                result = "小吉";
+                result = "な";
             } else if (colour === "青" && number === 1) {
-                result = "中吉";
+                result = "の";
             } else if (colour === "青" && number === 2) {
-                result = "凶";
+                result = "こ";
             } else if (colour === "赤" && number === 0) {
-                result = "中吉";
+                result = "よ";
             } else if (colour === "赤" && number === 1) {
-                result = "中吉";
+                result = "み";
             } else if (colour === "赤" && number === 2) {
-                result = "大凶";
+                result = "れ";
             } else if (colour === "黄色" && number === 0) {
-                result = "凶";
+                result = "く";
             } else if (colour === "黄色" && number === 1) {
-                result = "大吉";
+                result = "ど";
             } else if (colour === "黄色" && number === 2) {
-                result = "中吉";
+                result = "ま";
             }
 
-            document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
+            document.getElementById('result-output').innerText = "あなたのためのひらがなは…【" + result + "】です";
         }
