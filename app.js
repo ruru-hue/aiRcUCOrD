@@ -23,5 +23,8 @@
                 result = "ま";
             }
 
-            document.getElementById('result-output').innerText = "あなたのためのひらがなは…【" + result + "】です";
-        }
+            if (result >= 2) {
+    console.log("あなたのためのひらがなは…【" + result + "】です");
+} else {
+    console.log("その数字は当てはまりません。");
+}
