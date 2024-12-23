@@ -23,8 +23,5 @@
                 result = "バッジ";
             }
 
-            if (dice >= 4) {
-    console.log("スライムの攻撃をかわした");
-} else {
-    console.log("スライムから10のダメージを受けた");
-}
+            document.getElementById('result-output').innerText = "あなたのラッキーアイテムは 【" + result + "】です";
+        }
