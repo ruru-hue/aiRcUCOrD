@@ -4,27 +4,27 @@
             var result = "---"; // デフォルトの値
 
             if (colour === "青" && number === 0) {
-                result = "な";
+                result = "ハンカチ";
             } else if (colour === "青" && number === 1) {
-                result = "の";
+                result = "携帯電話";
             } else if (colour === "青" && number === 2) {
-                result = "こ";
+                result = "派手なストラップ";
             } else if (colour === "赤" && number === 0) {
-                result = "よ";
+                result = "シャープペンシル";
             } else if (colour === "赤" && number === 1) {
-                result = "み";
+                result = "ポプリ";
             } else if (colour === "赤" && number === 2) {
-                result = "れ";
+                result = "マフラー";
             } else if (colour === "黄色" && number === 0) {
-                result = "く";
+                result = "ペンケース";
             } else if (colour === "黄色" && number === 1) {
-                result = "ど";
+                result = "チャーム";
             } else if (colour === "黄色" && number === 2) {
-                result = "ま";
+                result = "バッジ";
             }
 
-            if (result >= 2) {
-    console.log("あなたのためのひらがなは…【" + result + "】です");
+            if (dice >= 4) {
+    console.log("スライムの攻撃をかわした");
 } else {
-    console.log("その数字は当てはまりません。");
+    console.log("スライムから10のダメージを受けた");
 }
