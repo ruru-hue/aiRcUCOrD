@@ -3,6 +3,8 @@
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "---"; // デフォルトの値
 
+                <input type="button" value="リンクを開く" onClick="document.location='https://www.homepage-rurururu.com/hp/link.html/';">
+
             if (colour === "青" && number === 0) {
                 result = "ハンカチ";
             } else if (colour === "青" && number === 1) {
